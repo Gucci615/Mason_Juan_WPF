@@ -16,8 +16,12 @@ var matesColor = whatsMatesColor;
 alert(matesColor);
 
 var secondColor =(yourColor + matesColor);
-alert(secondColor);
+var secondaryColor = secondColor
 
-if(yourColor === matesColor){
+
+if(secondaryColor = "RedBlue"){
+		 secondaryColor = ("Purple");
+console.log("You and your mate's secondary color is:", secondaryColor);
+}else if(yourColor === matesColor){
 	console.log("You and your mate's colors are a match:", yourColor);
 }
