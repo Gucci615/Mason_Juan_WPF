@@ -5,3 +5,8 @@ var whatsYourColor = prompt("Select your favorit primary color form the list: \n
 
 var yourColor = whatsYourColor;
 alert(yourColor);
+
+var whatsMatesColor = prompt("Select your favorit primary color form the list: \n Red \n Blue \n Yellow","Red");
+
+var matesColor = whatsMatesColor;
+alert(matesColor);
