@@ -15,3 +15,6 @@ var whatsMatesColor = prompt("Select your favorit primary color form the list: \
 var matesColor = whatsMatesColor;
 alert(matesColor);
 
+if(yourColor === matesColor){
+	console.log("You and your mate's colors are a match:", yourColor);
+}
