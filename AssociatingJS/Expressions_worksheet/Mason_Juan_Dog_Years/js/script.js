@@ -9,3 +9,5 @@
 
 var dogYear
 var dogAge = prompt("Enter the dogs age in human years",8);
+dogYear = dogAge * 7;
+alert(dogYear);
