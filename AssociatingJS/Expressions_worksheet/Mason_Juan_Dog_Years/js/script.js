@@ -10,4 +10,4 @@
 var dogYear
 var dogAge = prompt("Enter the dogs age in human years",8);
 dogYear = dogAge * 7;
-alert(dogYear);
+alert("Sparky is " + dogAge + " human years old which is " + dogYear + " in dog years");
