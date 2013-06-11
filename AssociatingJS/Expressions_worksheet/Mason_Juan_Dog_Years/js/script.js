@@ -6,3 +6,6 @@
 //Sparky’s age in dog years.
 //    Result to Print:
 //“Sparky is X human years old which is X in dog years.
+
+var dogYear
+var dogAge = prompt("Enter the dogs age in human years",8);
