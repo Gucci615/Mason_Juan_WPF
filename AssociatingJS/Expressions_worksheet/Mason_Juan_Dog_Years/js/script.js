@@ -8,6 +8,6 @@
 //“Sparky is X human years old which is X in dog years.
 
 var dogYear
-var dogAge = prompt("Enter the dogs age in human years",8);
+var dogAge = prompt("Enter the dogs age in human years.",8);
 dogYear = dogAge * 7;
-alert("Sparky is " + dogAge + " human years old which is " + dogYear + " in dog years. Wow!");
+console.log("Sparky is " + dogAge + " human years old, which is " + dogYear + " in dog years. Wow!");
