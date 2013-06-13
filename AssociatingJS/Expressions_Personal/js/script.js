@@ -15,3 +15,11 @@ console.log(pizzaNumber);
 //Average # of weeks pizza is ordered
 var weeksOrdered = prompt("What is the average number of weeks pizza is ordered?", 20);
 console.log(weeksOrdered);
+
+//Delivery $
+var delivery = prompt("What do you pay for delivery?", 2.50);
+console.log(delivery);
+
+//Average # of deliveries
+var deliveryNumber = prompt("What is the average number of times you use delivery?", 10);
+console.log(deliveryNumber);
