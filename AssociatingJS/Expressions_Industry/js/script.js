@@ -32,9 +32,8 @@ console.log("You price for video and phone service is $" + (parseFloat(yourVideo
 console.log("You price for video and phone service is $" + (parseFloat(yourInternetPrice) + parseFloat(yourPhonePrice)));
 
 // Add all 3 service prices together to get a total
-console.log("You price for all three services is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)));
+console.log("You currently pay $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)) + "for all three Servces");
 
 //Diff between your price for all three and starterTP
-console.log("The diffrencei between your price for all three and Starter TriPlay is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice)) - parseFloat(starterTP));
-
+//
 
