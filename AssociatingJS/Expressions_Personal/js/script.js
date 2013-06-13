@@ -5,7 +5,7 @@
 //How Much Do We Spend On Pizza Yearly
 
 //Price of per pizza pie
-var pizzaPrice = prompt("How mush for each pizza?", 5.00);
+var pizzaPrice = prompt("How much for each pizza?", 5.00);
 console.log(pizzaPrice);
 
 //# ordered
@@ -23,3 +23,7 @@ console.log(delivery);
 //Average # of deliveries
 var deliveryNumber = prompt("What is the average number of times you use delivery?", 10);
 console.log(deliveryNumber);
+
+//Delivery tip
+var tip = prompt("How much do you tip the delivery driver?", 1.75);
+console.log(tip);
