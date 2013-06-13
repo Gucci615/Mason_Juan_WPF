@@ -2,6 +2,9 @@
 //Start 1851
 //End
 
-//Expressions Wacky 
+//Expressions Wacky
+//What type of wrestler are you?
+
+alert("Take this quiz to ID the wrestler in you!"); 
 
 
