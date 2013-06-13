@@ -41,5 +41,5 @@ var yearlyTip = tip *  deliveryNumber
 console.log("The total amount spent on tips equal $" + yearlyTip + " per year.");
 
 //Yearly Grand Total
-var grandTotal = parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizza)
-alert("You spend a woopingg S" + randTotal + " per year on pizza. WOW!");
+var grandTotal = (parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizza));
+alert("You spend a woopingg $" + grandTotal + " per year on pizza. WOW!");
