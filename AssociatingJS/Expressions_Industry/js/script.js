@@ -1,4 +1,5 @@
 //Mason_Juan 06/13/15
+//It took me 4.5 hours to do this. :(
 
     //Expressions Industry
 //Video,Phone, Internet
@@ -38,17 +39,17 @@ console.log("You price for video and phone service is $" + (parseFloat(yourInter
 console.log("You currently pay $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)) + " for all three servces.");
 
 //Diff between your price for all three and starterTP
-console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Starter TriPlay for $" +  parseFloat(starterTP) + " is $" + (parseFloat(total) - parseFloat(starterTP)));
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Starter TriPlay for $" +  parseFloat(starterTP) + " is $" + (parseFloat(total) - parseFloat(starterTP)) + " per month.");
 
 //Diff between your price for all three and prefTP
-console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred TriPlay for $" +  parseFloat(prefTP) + " is $" + (parseFloat(total) - parseFloat(prefTP)));
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred TriPlay for $" +  parseFloat(prefTP) + " is $" + (parseFloat(total) - parseFloat(prefTP)) + " per month.");
 
 //Diff between your price for all three and prefHDTP
-console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD TriPlay for $" +  parseFloat(prefHDTP) + " is $" + (parseFloat(total) - parseFloat(prefHDTP)));
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD TriPlay for $" +  parseFloat(prefHDTP) + " is $" + (parseFloat(total) - parseFloat(prefHDTP)) + " per month.");
 
 //Diff between your price for all three and prefPlusHDTP
-console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD Plus TriPlay for $" +  parseFloat(prefPlusHDTP) + " is $" + (parseFloat(total) - parseFloat(prefPlusHDTP)));
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD Plus TriPlay for $" +  parseFloat(prefPlusHDTP) + " is $" + (parseFloat(total) - parseFloat(prefPlusHDTP)) + " per month.");
 
 //Diff between your price for all three and premierTP
-console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Premier TriPlay for $" +  parseFloat(premierTP) + " is $" + (parseFloat(total) - parseFloat(premierTP)));
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Premier TriPlay for $" +  parseFloat(premierTP) + " is $" + (parseFloat(total) - parseFloat(premierTP)) + " per month.");
 
