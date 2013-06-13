@@ -6,3 +6,5 @@
 
 var pizzaPrice = prompt("How mush for each pizza", 5.00);
 console.log(pizzaPrice);
+var pizzaNumber = prompt("How many pizzas order?",2)
+console.log(pizzaNumber);
