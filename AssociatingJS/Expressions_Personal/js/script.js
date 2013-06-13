@@ -30,11 +30,11 @@ console.log(tip);
 
 //Yearly pizza total
 var yearlyPizza = pizzaPrice * pizzaNumber * weeksOrdered
-console.log("The total amount spent on pizza equals $" + parseFloat(yearlyPizza) + " per year.");
+console.log("The total amount spent on pizza equals $" + yearlyPizza + " per year.");
 
 //Yearly delivery total
 var yearlyDelivery = delivery * deliveryNumber
-console.log("The total amount spent on delivery equals $" + parseFloat(yearlyDelivery) + " per year.");
+console.log("The total amount spent on delivery equals $" + yearlyDelivery + " per year.");
 
 //Yearly Tip total
 var yrarlyTip = tip *  deliveryNumber
