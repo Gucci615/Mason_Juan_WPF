@@ -28,8 +28,11 @@ console.log(deliveryNumber);
 var tip = prompt("How much do you tip the delivery driver?", 1.75);
 console.log(tip);
 
+//Yearly pizza total
 var yearlyPizza = pizzaPrice * pizzaNumber * weeksOrdered
 console.log("The total amount spnet on pizza per year equals $" + parseFloat(yearlyPizza) + " per year.");
 
-
+//Yearly delivery total
+var yearlyDelivery = delivery * deliveryNumber
+console.log("The total amount spent on delivery per year equals $" + parseFloat(yearlyDelivery) + " per year.");
 
