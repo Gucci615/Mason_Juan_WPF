@@ -4,18 +4,18 @@
 //Video,Phone, Internet
 
 var videoPrice = prompt("How mush do you pay for video per month?", 59.95);
-var yourVideoPrice = videoPrice
+var yourVideoPrice = parseFloat(videoPrice);
 console.log(yourVideoPrice);
 
 var phonePrice = prompt("How mush do you pay for phone per month?", 49.95);
-var yourPhonePrice = phonePrice
+var yourPhonePrice = parseFloat(phonePrice);
 console.log(yourPhonePrice);
 
 var internetPrice = prompt("How mush do you pay for internet per month?", 24.95);
-var yourInternetPrice = internetPrice
+var yourInternetPrice = parseFloat(internetPrice);
 console.log(yourInternetPrice);
 
-alert("You price for video and phone service is $" + yourVideoPrice + yourPhonePrice);
+console.log("You price for video and phone service is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice);
 
 
 
