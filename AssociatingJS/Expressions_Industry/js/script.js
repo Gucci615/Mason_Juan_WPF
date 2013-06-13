@@ -22,7 +22,7 @@ var starterTP = 99.00;
 var prefTP = 109.99;
 var prefHDTP = 119.99;
 var prefPlusHDTP = 139.99;
-var primerTP = 159.99;
+var premierTP = 159.99;
 
 
 //Add video & phone price
@@ -39,4 +39,16 @@ console.log("You currently pay $" + (parseFloat(yourVideoPrice) + parseFloat(you
 
 //Diff between your price for all three and starterTP
 console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Starter TriPlay for $" +  parseFloat(starterTP) + " is $" + (parseFloat(total) - parseFloat(starterTP)));
+
+//Diff between your price for all three and prefTP
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred TriPlay for $" +  parseFloat(prefTP) + " is $" + (parseFloat(total) - parseFloat(prefTP)));
+
+//Diff between your price for all three and prefHDTP
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD TriPlay for $" +  parseFloat(prefHDTP) + " is $" + (parseFloat(total) - parseFloat(prefHDTP)));
+
+//Diff between your price for all three and prefPlusHDTP
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Preferred HD Plus TriPlay for $" +  parseFloat(prefPlusHDTP) + " is $" + (parseFloat(total) - parseFloat(prefPlusHDTP)));
+
+//Diff between your price for all three and premierTP
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Premier TriPlay for $" +  parseFloat(premierTP) + " is $" + (parseFloat(total) - parseFloat(premierTP)));
 
