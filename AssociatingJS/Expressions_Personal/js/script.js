@@ -14,7 +14,9 @@ console.log(pizzaNumber);
 
 //Tax on pizza order
 var tax = pizzaPrice * pizzaNumber * 0.06
+var plusTax = pizzaPrice * pizzaNumber + tax 
 console.log(tax);
+console.log(plusTax);
 
 alert("You spend a average of $" + pizzaPrice * pizzaNumber + tax + " per week before adding in dilevery and tip.");
 
