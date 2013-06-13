@@ -1,6 +1,6 @@
 //Mason_Juan 06/13/13
-//Start Time 1534
-
+//Start Time 1534 
+//End Time 1838
 //Expressions Personal
 //How Much Do We Spend On Pizza Yearly
 
@@ -50,5 +50,5 @@ var yearlyTip = tip *  deliveryNumber
 console.log("The total amount spent on tips equal $" + yearlyTip + " per year.");
 
 //Yearly Grand Total
-var grandTotal = (parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizza));
+var grandTotal = (parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizzaTax));
 alert("You spend $" + grandTotal + " per year on pizza. WOW!");
