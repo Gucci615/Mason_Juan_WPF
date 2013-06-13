@@ -13,6 +13,10 @@ var pizzaNumber = prompt("How many pizzas ordered per week?",2)
 console.log(pizzaNumber);
 alert("You spend a average of $" + pizzaPrice * pizzaNumber + " per week before adding in dilevery and tip.");
 
+//Tax on pizza order
+var tax = pizzaPrice * pizzaNumber * 0.06
+console.log(tax);
+
 //Average # of weeks pizza is ordered
 var weeksOrdered = prompt("What is the average number of weeks pizza is ordered?", 20);
 console.log(weeksOrdered);
@@ -43,4 +47,4 @@ console.log("The total amount spent on tips equal $" + yearlyTip + " per year.")
 
 //Yearly Grand Total
 var grandTotal = (parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizza));
-alert("You spend a woopingg $" + grandTotal + " per year on pizza. WOW!");
+alert("You spend $" + grandTotal + " per year on pizza. WOW!");
