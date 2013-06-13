@@ -19,3 +19,5 @@ myArray[9] = "Hornswoggle, Dink the Clown, and El Torito";
 myArray[10] = "Rey Mysterio Jr, Evan Bourne, and Brian Kendrick";
 myArray[11] = "Bret Hart, Chris Benoit, The Undertaker, and Kurt Angle";
 myArray[12] = "Andre The Giant, Big Show, Mark Henry, and King Kong Bundy";
+
+var weight = prompt("If your weiglt is equal or less than 149 lbs enter 0. If your is between 150 & 199 enter 1", 1);	
