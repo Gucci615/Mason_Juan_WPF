@@ -4,3 +4,5 @@
 //Expressions Personal
 //How Much Do We Spend On Pizza Yearly
 
+var pizzaPrice = prompt("How mush for each pizza", 5.00);
+console.log(pizzaPrice);
