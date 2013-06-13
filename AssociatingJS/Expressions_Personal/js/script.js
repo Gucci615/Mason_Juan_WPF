@@ -11,11 +11,12 @@ console.log(pizzaPrice);
 //# ordered
 var pizzaNumber = prompt("How many pizzas ordered per week?",2)
 console.log(pizzaNumber);
-alert("You spend a average of $" + pizzaPrice * pizzaNumber + " per week before adding in dilevery and tip.");
 
 //Tax on pizza order
 var tax = pizzaPrice * pizzaNumber * 0.06
 console.log(tax);
+
+alert("You spend a average of $" + pizzaPrice * pizzaNumber + tax + " per week before adding in dilevery and tip.");
 
 //Average # of weeks pizza is ordered
 var weeksOrdered = prompt("What is the average number of weeks pizza is ordered?", 20);
