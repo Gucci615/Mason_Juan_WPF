@@ -18,6 +18,9 @@ console.log(yourInternetPrice);
 //Add video & phone price
 console.log("You price for video and phone service is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice)));
 
+//Add video & internet price
+console.log("You price for video and phone service is $" + (parseFloat(yourVideoPrice) + parseFloat(yourInternetPrice)));
+
 // Add all 3 service prices together to get a total
 console.log("You price for all three services is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)));
 
