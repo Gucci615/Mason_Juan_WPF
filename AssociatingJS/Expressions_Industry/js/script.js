@@ -15,7 +15,7 @@ var internetPrice = prompt("How mush do you pay for internet per month?", 24.95)
 var yourInternetPrice = parseFloat(internetPrice);
 console.log(yourInternetPrice);
 
-console.log("You price for video and phone service is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice);
+console.log("You price for video and phone service is $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice)));
 
 
 
