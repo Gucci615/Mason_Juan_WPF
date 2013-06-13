@@ -15,6 +15,9 @@ var internetPrice = prompt("How mush do you pay for internet per month?", 24.99)
 var yourInternetPrice = internetPrice;
 console.log(yourInternetPrice);
 
+var total = (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice));
+console.log(total);
+
 var starterTP = 99.00;
 var prefTP = 109.99;
 var prefHDTP = 119.99;
@@ -32,8 +35,8 @@ console.log("You price for video and phone service is $" + (parseFloat(yourVideo
 console.log("You price for video and phone service is $" + (parseFloat(yourInternetPrice) + parseFloat(yourPhonePrice)));
 
 // Add all 3 service prices together to get a total
-console.log("You currently pay $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)) + "for all three Servces");
+console.log("You currently pay $" + (parseFloat(yourVideoPrice) + parseFloat(yourPhonePrice) + parseFloat(yourInternetPrice)) + " for all three servces.");
 
 //Diff between your price for all three and starterTP
-//
+console.log("The diffrence between your price of $" + parseFloat(total) + " and the Digital Starter TriPlay for $" +  parseFloat(starterTP) + " is $" + (parseFloat(total) - parseFloat(starterTP)));
 
