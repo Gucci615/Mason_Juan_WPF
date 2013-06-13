@@ -10,6 +10,8 @@ var phonePrice = prompt("How mush do you pay for phone per month?", 49.95);
 var yourPhonePrice = phonePrice
 console.log(yourPhonePrice);
 var internetPrice = prompt("How mush do you pay for internet per month?", 24.95);
+var yourInternetPrice = internetPrice
+console.log(yourInternetPrice);
 
 
 
