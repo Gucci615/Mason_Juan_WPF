@@ -37,5 +37,9 @@ var yearlyDelivery = delivery * deliveryNumber
 console.log("The total amount spent on delivery equals $" + yearlyDelivery + " per year.");
 
 //Yearly Tip total
-var yrarlyTip = tip *  deliveryNumber
-console.log("The total amount spent on tips equal $" + yrarlyTip + " per year.");
+var yearlyTip = tip *  deliveryNumber
+console.log("The total amount spent on tips equal $" + yearlyTip + " per year.");
+
+//Yearly Grand Total
+var grandTotal = parseFloat(yearlyTip) + parseFloat(yearlyDelivery) + parseFloat(yearlyPizza)
+console.log(grandTotal);
