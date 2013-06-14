@@ -22,16 +22,14 @@ myArray[11] = "Andre The Giant, Big Show, Mark Henry, and King Kong Bundy";
 
 //Your Weight
 var weight = prompt("If your weight is equal or less than 149 lbs enter 0. Enter 1 if your weight no mre than 199 and no less than 150 lbs. Enter 2 if your weight no mre than 349 and no less than 200 lbs. Enter 3 if your weight 350 lbs or more", 1);
-var yourWeight = weight
-console.log(yourWeight);
 
-console.log(" Your curent weight is " + myArray[yourWeight] + ".");
+console.log("Your curent weight is " + myArray[weight] + ".");
 
 //Pick a wrestling style
 
 var style = prompt("Select your wrestling style: 4 for Light Weight, 5 for High Flyer, 6 for Wrestling Technician & Power House, or 7 for Super Heavy Weight", 4);
 
-console.log("You have a " + myArray[style] + " wrestling style");
+console.log("You have a " + myArray[style] + " wrestling style.");
 
 
 
