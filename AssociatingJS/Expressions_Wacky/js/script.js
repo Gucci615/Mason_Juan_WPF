@@ -31,8 +31,6 @@ var style = prompt("Select your wrestling style: 0 for Light Weight, 1 for High 
 console.log("You have a " + styleArray[style] + " wrestling style.");
 
 //Wrestlers
-var wrestlersName = parseInt(weight) + parseInt(style)
-console.log(wrestlersName)
 
 var  nameArray = new Array();
 nameArray[0] = "Hornswoggle, Dink the Clown, and El Torito";
@@ -40,7 +38,18 @@ nameArray[1] = "Rey Mysterio Jr, Evan Bourne, and Brian Kendrick";
 nameArray[2] = "Bret Hart, Chris Benoit, The Undertaker, and Kurt Angle";
 nameArray[3] = "Andre The Giant, Big Show, Mark Henry, and King Kong Bundy";
 
-console.log("With a weight of " + weightArray[weight] + ". You should go after a " + styleArray[style] + " wrestling style. ");
+var nameWeight = nameArray[weight]
+console.log(nameWeight);
+var nameStyle = nameArray[style]
+console.log(nameStyle);
+
+console.log("With a weight of " + weightArray[weight]  + ". You should should fallow in the foot step of wrestlers like: " + nameWeight + ".");
+console.log("With a " + styleArray[style]  + " wrestling style. You should should fallow in the foot step of wrestlers like: " + nameStyle + ".");
+
+console.log("With a weight of " + weightArray[weight] + " and a " + styleArray[style] + " wrestling style may lead to varus combinations. Your inner wrestler would be a combination of " + nameWeight + " , along with, " + nameStyle + ".");
+
+
+
 
 
 
