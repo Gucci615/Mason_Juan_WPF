@@ -48,6 +48,8 @@ console.log("With a " + styleArray[style]  + " wrestling style. You should shoul
 
 console.log("With a weight of " + weightArray[weight] + " and a " + styleArray[style] + " wrestling style may lead to varus combinations. Your inner wrestler would be a combination of " + nameWeight + " , along with, " + nameStyle + ".");
 
+alert("Now climb in the ring and get ready to rumble!");
+
 
 
 
