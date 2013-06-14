@@ -31,6 +31,7 @@ console.log(" Your curent weight is " + myArray[yourWeight] + ".");
 
 var style = prompt("Select your wrestling style: 4 for Light Weight, 5 for High Flyer, 6 for Wrestling Technician & Power House, or 7 for Super Heavy Weight", 4);
 
+console.log("You have a " + myArray[style] + " wrestling style");
 
 
 
