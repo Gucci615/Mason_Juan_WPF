@@ -17,7 +17,7 @@ var weight = prompt("If your weight is equal or less than 149 lbs enter 0. Enter
 
 console.log("Your curent weight is " + weightArray[weight] + ".");
 
-var  styleArray = new Array1();
+var  styleArray = new Array();
 styleArray[0] = "Light Weight"
 styleArray[1] = "High Flyer";
 styleArray[2] = "Wrestling Technician & Power House";
@@ -34,7 +34,7 @@ console.log("You have a " +styleArray[style] + " wrestling style.");
 var wrestlersName = parseInt(weight) + parseInt(style)
 console.log(wrestlersName)
 
-var  myArray2 = new Array2();
+var  nameArray = new Array();
 nameArray[0] = "Hornswoggle, Dink the Clown, and El Torito";
 nameArray[1] = "Rey Mysterio Jr, Evan Bourne, and Brian Kendrick";
 nameArray[2] = "Bret Hart, Chris Benoit, The Undertaker, and Kurt Angle";
