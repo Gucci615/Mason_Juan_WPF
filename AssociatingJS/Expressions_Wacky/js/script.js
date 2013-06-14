@@ -15,10 +15,7 @@ myArray[4] = "Light Weight"
 myArray[5] = "High Flyer";
 myArray[6] = "Wrestling Technician & Power House";
 myArray[7] = "Super Heavy Weight";
-myArray[8] = "Hornswoggle, Dink the Clown, and El Torito";
-myArray[9] = "Rey Mysterio Jr, Evan Bourne, and Brian Kendrick";
-myArray[10] = "Bret Hart, Chris Benoit, The Undertaker, and Kurt Angle";
-myArray[11] = "Andre The Giant, Big Show, Mark Henry, and King Kong Bundy";
+
 
 //Your Weight
 var weight = prompt("If your weight is equal or less than 149 lbs enter 0. Enter 1 if your weight no mre than 199 and no less than 150 lbs. Enter 2 if your weight no mre than 349 and no less than 200 lbs. Enter 3 if your weight 350 lbs or more", 1);
@@ -32,8 +29,14 @@ var style = prompt("Select your wrestling style: 4 for Light Weight, 5 for High 
 console.log("You have a " + myArray[style] + " wrestling style.");
 
 //Wrestlers
-var wrestlersName = myArray[weight] + myArray[style]
+var wrestlersName = parseInt(weight) + parseInt(style)
 console.log(wrestlersName)
+
+var  myArray2 = new Array2();
+myArray[0] = "Hornswoggle, Dink the Clown, and El Torito";
+myArray[1] = "Rey Mysterio Jr, Evan Bourne, and Brian Kendrick";
+myArray[2] = "Bret Hart, Chris Benoit, The Undertaker, and Kurt Angle";
+myArray[3] = "Andre The Giant, Big Show, Mark Henry, and King Kong Bundy";
 
 
 
