@@ -31,6 +31,10 @@ var style = prompt("Select your wrestling style: 4 for Light Weight, 5 for High 
 
 console.log("You have a " + myArray[style] + " wrestling style.");
 
+//Wrestlers
+var wrestlersName = myArray[weight] + myArray[style]
+console.log(wrestlersName)
+
 
 
 
