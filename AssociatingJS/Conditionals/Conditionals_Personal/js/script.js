@@ -18,12 +18,12 @@ console.log(totalTime);
 
 //Prompt intake calories per day
 var monCal = prompt("Enter the amount of calories ingested on Monday.", 2000)
-var tueCal = prompt("Enter the amount of calories ingested on Tuesday.", 2000)
-var wedCal = prompt("Enter the amount of calories ingested on Wedneday.", 2000)
-var thurCal = prompt("Enter the amount of calories ingested onThursday.", 2000)
-var friCal = prompt("Enter the amount of calories ingested on Friday.", 2000)
-var satCal = prompt("Enter the amount of calories ingested on Saturday.", 2000)
-var sunCal = prompt("Enter the amount of calories ingested on Sunday.", 2000)
+	tueCal = prompt("Enter the amount of calories ingested on Tuesday.", 2000)
+	wedCal = prompt("Enter the amount of calories ingested on Wedneday.", 2000)
+	thurCal = prompt("Enter the amount of calories ingested onThursday.", 2000)
+	friCal = prompt("Enter the amount of calories ingested on Friday.", 2000)
+	satCal = prompt("Enter the amount of calories ingested on Saturday.", 2000)
+	sunCal = prompt("Enter the amount of calories ingested on Sunday.", 2000)
 	totalCal = (parseInt(monCal) + parseInt(tueCal) + parseInt(wedCal) + parseInt(thurCal) + parseInt(friCal) + parseInt(satCal) + parseInt(sunCal));
 
 //Display calorie intake total for the week.	
