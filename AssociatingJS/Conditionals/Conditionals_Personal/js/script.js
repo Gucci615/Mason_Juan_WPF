@@ -24,7 +24,8 @@ var thurCal = prompt("Enter the amount of calories ingested onThursday.", 2000)
 var friCal = prompt("Enter the amount of calories ingested on Friday.", 2000)
 var satCal = prompt("Enter the amount of calories ingested on Saturday.", 2000)
 var sunCal = prompt("Enter the amount of calories ingested on Sunday.", 2000)
-
+	totalCal = (parseInt(monCal) + parseInt(tueCal) + parseInt(wedCal) + parseInt(thurCal) + parseInt(friCal) + parseInt(satCal) + parseInt(sunCal));
+	
 
 
 	
