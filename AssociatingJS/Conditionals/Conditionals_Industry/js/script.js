@@ -17,6 +17,8 @@ var totalMoney = (parseInt(moneyJuan) + parseInt(moneyMarlow) + parseInt(moneyJu
 console.log("The total amont invested is $" + totalMoney + ".");
 
 var cdNumber = prompt("Enter the muber is CDs times 100.",1)
+	cdCoverNumber = prompt("Enter the muber is CD Covers times 100.",1)
+	cdJewelCase = prompt("Enter the muber is CD Jewel Cases times 100.",1)
 
 
 
