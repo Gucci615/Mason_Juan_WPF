@@ -2,7 +2,8 @@
 //Time Spent Exercising
 
 // Prompt time spent on exercise per day.
-var monadyTime = prompt("Enter the amount of time spent on exercise in minutes.", 90)
+var monTime = prompt("Enter the amount of time spent exercising Monday in minutes.", 90)
+	tueTime = prompt("Enter the amount of time spent exercising Tuesday in minutes.", 90)
 
 
 
