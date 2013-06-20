@@ -13,7 +13,7 @@ var monTime = prompt("Enter the amount of time spent exercising Monday in minute
 	sunTime = prompt("Enter the amount of time spent exercising Sunday in minutes.", 10)
 	totalTime = (parseInt(monTime) + parseInt(tueTime) + parseInt(wedTime) + parseInt(thurTime) + parseInt(friTime) + parseInt(satTime) + parseInt(sunTime));
 	
-// Display total exercise time for the week
+// Display total exercise time for the week.
 console.log(totalTime);
 
 //Prompt intake calories per day
@@ -25,7 +25,9 @@ var friCal = prompt("Enter the amount of calories ingested on Friday.", 2000)
 var satCal = prompt("Enter the amount of calories ingested on Saturday.", 2000)
 var sunCal = prompt("Enter the amount of calories ingested on Sunday.", 2000)
 	totalCal = (parseInt(monCal) + parseInt(tueCal) + parseInt(wedCal) + parseInt(thurCal) + parseInt(friCal) + parseInt(satCal) + parseInt(sunCal));
-	
+
+//Display calorie intake total for the week.	
+console.log(totalCal);
 
 
 	
