@@ -4,11 +4,11 @@
 
 alert("Are you a gamer?");
 
-// Game system array
-var gameArray = new Array ("Playstation 3", "Playstation", "PS3", "X Box 360", "Xbox", 360, "Computer", "Cell Phone");
+// Game system arra
+var gameArray = new Array ("PS 3",  "Xbox 360", "Computer", "Cell Phone, Other");
 	
 	
-var system = prompt("What system to you play games on the most?", (gameArray[3]));
+var system = prompt("What system to you play games on the most? PS 3, Xbox 360, Computer, Cell Phone, or Other...", (gameArray[3]));
 	
 
 
