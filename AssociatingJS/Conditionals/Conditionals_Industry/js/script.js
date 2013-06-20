@@ -4,6 +4,8 @@
 
 alert("Do we have enough money from investors to record, print and release the new JAM Mix Tape CD?");
 
+var moneyJuan = prompt("How much money has Juan invested?",50);
+
 
 
 
