@@ -33,7 +33,8 @@ console.log(totalCal);
 //Compare total exercise time with goal.
 if (totalTime > 200){console.log("You should be careful not to over do it!")
 	}
-	
+	else if (totalTime == 200){console.log("You are on the right track. Keep up the good work.")
+		}
 
 
 
