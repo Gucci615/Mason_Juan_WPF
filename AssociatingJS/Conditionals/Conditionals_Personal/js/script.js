@@ -1,6 +1,8 @@
 //Mason_Juan 06/19/13 Conditionals_Personal
 //Time Spent Exercising
 
+alert("My doctors want me to exercise 200 minutes and take in no more than 12000 calories per week.");
+
 // Prompt time spent on exercise per day.
 var monTime = prompt("Enter the amount of time spent exercising Monday in minutes.", 10)
 	tueTime = prompt("Enter the amount of time spent exercising Tuesday in minutes.", 10)
