@@ -21,9 +21,15 @@ var cdNumber = prompt("Enter the muber is CDs times 100.",1)
 	cdJewelCase = prompt("The total muber of CD Jewel Cases are:",(cdNumber * 100))
 	cdrPackPrice = prompt("Enter the price of a 100 pack CD-R.",15)
 	cdJewleCasePrice = prompt("Enter the price of a 100 jewele case pack.", 15)
-	cdDup = prompt("Enter the price of CD duplication per 100 CDs.",5)
-	totalCdrPrice = (cdNumber * cdrPackPrice)
-	console.log ("The total price of the CD-Rs equal $" + totalCdrPrice + ".");
+	cdDup = prompt("Enter the price of CD duplication per 100 CDs.",5);
+	
+// Total Price of CD-Rs
+var totalCdrPrice = (cdNumber * cdrPackPrice);
+console.log ("The total price of the CD-Rs equal $" + totalCdrPrice + ".");
+
+// Total Price of CD Covers
+var totalJewelePrice = (cdNumber * cdJewleCasePrice);
+console.log ("The total price of the Jewele Cases equal $" + totalJewelePrice + ".");
 	
 
 
