@@ -15,7 +15,7 @@ var gameType = prompt("What types of games do you like to play the most? \n 1st 
 	shooters = ("Call of Duty, Sniper, and Battlefield");
 	fighting = ("Injustice, WWE, UFC, and Tekken");
 	sports = ("Madden, NBA 2K, FIFA Soccer, NHL, and MLB");
-
+	strategy = ("XCOM, R.U.S.E., Command & Conquer, and Greed Corp");
 	
 
 
