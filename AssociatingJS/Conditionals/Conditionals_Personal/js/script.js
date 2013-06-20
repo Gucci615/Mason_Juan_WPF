@@ -30,6 +30,18 @@ var monCal = prompt("Enter the amount of calories ingested on Monday.", 2000)
 console.log(totalCal);
 
 
+//Compare total exercise time with goal.
+if (totalTime > 200){console.log("You should be careful not to over do it!")
+	}
+	
+
+
+
+
+
+
+
+
 	
 
 
