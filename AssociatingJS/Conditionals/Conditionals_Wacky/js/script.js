@@ -13,7 +13,8 @@ var systemName = prompt("What system to you play games on the most? \n PS 3 \n X
 //Type of games played most
 var gameType = prompt("What types of games do you like to play the most? \n 1st Person Shooters \n Fighting \n Sports \n Strategy", "Fighting");
 	shooters = ("Call of Duty, Sniper, and Battlefield");
-	
+	fighting = ("Injustice, WWE, UFC, and Tekken");
+
 	
 
 
