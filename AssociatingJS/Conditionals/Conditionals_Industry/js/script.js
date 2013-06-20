@@ -19,8 +19,9 @@ console.log("The total amont invested is $" + totalMoney + ".");
 var cdNumber = prompt("Enter the muber is CDs times 100.",1)
 	cdCoverNumber = prompt("Enter the muber is CD Covers.",(cdNumber * 100))
 	cdJewelCase = prompt("The total muber of CD Jewel Cases are:",(cdNumber * 100))
-	cdrPackPrice = prompt("Enter the price of a 100 pack CD-R:",15)
-	cdJewleCasePrice = prompt("Enter the price of a 100 jewele case pack:", 15)
+	cdrPackPrice = prompt("Enter the price of a 100 pack CD-R.",15)
+	cdJewleCasePrice = prompt("Enter the price of a 100 jewele case pack.", 15)
+	cdDup = prompt("Enter the price of CD duplication per 100 CDs.",5)
 	
 
 
