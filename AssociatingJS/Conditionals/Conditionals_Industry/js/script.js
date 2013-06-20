@@ -10,6 +10,8 @@ var moneyJuan = prompt("How much money has Juan invested?",50)
 	moneyJuanDad = prompt("How much money has Juan's Dad invested?",50)
 	moneyMarlowMom = prompt("How much money has Marlow's Mom invested?",50)
 	moneyOther = prompt("Any additional money invested?",0);
+	
+var totalMony = (parseInt(moneyJuan) + parseInt(moneyMarlow) + parseInt(moneyJuanMom) + parseInt(moneyJuanDad) + parseInt(moneyMarlowMom) + parseInt(moneyOther));
 
 
 
