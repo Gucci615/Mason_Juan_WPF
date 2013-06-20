@@ -31,15 +31,17 @@ console.log(totalCal);
 
 
 //Compare total exercise time with goal.
-if (totalTime > 200){console.log("You should be careful not to over do it!")
+if (totalTime > 200){console.log("You should be careful not to over do it!");
 	}
-else if (totalTime == 200){console.log("You are on the right track. Keep up the good work.")
+else if (totalTime == 200){console.log("You are on the right track. Keep up the good work.");
 	}
-else {console.log("We have work to do. You need to increase your exercise time.")
+else {console.log("We have work to do! You need to increase your exercise time.");
 	}
 
 //Compare total intake calories with goal
-if (totalCal <= 12000){console.log("Keep up the good work. You are on the right track with your calorie intake.")
+if (totalCal <= 12000){console.log("Keep up the good work. You are on the right track with your calorie intake.");
+	}
+else{console.log("Stay focused! You need to cut your calorie intake.");
 	}
 
 
