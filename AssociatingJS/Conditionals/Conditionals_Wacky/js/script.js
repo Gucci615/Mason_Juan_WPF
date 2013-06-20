@@ -2,6 +2,8 @@
 // Conditionals Wacky
 // Time Playing Video Games
 
+alert("Are you a gamer?");
+
 
 
 
