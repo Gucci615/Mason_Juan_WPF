@@ -41,7 +41,12 @@ var totalDupPrice = (cdNumber * cdDup);
 console.log ("The total price of duplication equal $" + totalDupPrice + ".");
 
 var grandTotal =(parseFloat(totalCdrPrice) + parseFloat(totalCoverPrice) + parseFloat(totalJewelePrice) + parseFloat(totalDupPrice));
-console.log(grandTotal);
+console.log("The Total needed for this project is $" + grandTotal + "."	);
+
+var project = (grandTotal <= totalMoney) ? "We have enough money from investors for this project." : "Sorry, you need to seek more investors.";
+console.log(project);
+
+	
 	
 
 
