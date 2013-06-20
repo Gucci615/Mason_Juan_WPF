@@ -1,5 +1,5 @@
 //Mason_Juan 06/19/13 Conditionals_Personal
-//Time Spent Exercising
+//How to cut weight
 
 alert("My doctors want me to exercise 200 minutes and take in no more than 12000 calories per week to reduce my weight.");
 
@@ -33,7 +33,7 @@ console.log(totalCal);
 //Compare total exercise time with goal.
 if (totalTime > 200){console.log("You should be careful not to over do it!");
 	}
-else if (totalTime == 200){console.log("You are on the right track. Keep up the good work.");
+else if (totalTime == 200){console.log("You are on the right track. Keep up the good work with your exercise.");
 	}
 else {console.log("We have work to do! You need to increase your exercise time.");
 	}
