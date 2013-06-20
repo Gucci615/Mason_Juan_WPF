@@ -9,6 +9,11 @@ var monTime = prompt("Enter the amount of time spent exercising Monday in minute
 	friTime = prompt("Enter the amount of time spent exercising Frisday in minutes.", 10)
 	satTime = prompt("Enter the amount of time spent exercising Saturday in minutes.", 10)
 	sunTime = prompt("Enter the amount of time spent exercising Sunday in minutes.", 10)
+	totalTime = (parseInt(monTime) + parseInt(tueTime) + parseInt(wedTime) + parseInt(thurTime) + parseInt(friTime) + parseInt(satTime) + parseInt(sunTime));
+	
+// Display total exercise time for the week
+console.log(totalTime);
+
 	
 
 
