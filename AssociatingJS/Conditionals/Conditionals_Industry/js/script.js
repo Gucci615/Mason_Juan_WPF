@@ -39,6 +39,9 @@ console.log ("The total price of the Jewele Cases equal $" + totalJewelePrice + 
 // Total Price of CD duplication
 var totalDupPrice = (cdNumber * cdDup);
 console.log ("The total price of duplication equal $" + totalDupPrice + ".");
+
+var grandTotal =(parseFloat(totalCdrPrice) + parseFloat(totalCoverPrice) + parseFloat(totalJewelePrice) + parseFloat(totalDupPrice));
+console.log(grandTotal);
 	
 
 
