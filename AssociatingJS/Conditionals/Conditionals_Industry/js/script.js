@@ -17,8 +17,9 @@ var totalMoney = (parseInt(moneyJuan) + parseInt(moneyMarlow) + parseInt(moneyJu
 console.log("The total amont invested is $" + totalMoney + ".");
 
 var cdNumber = prompt("Enter the muber is CDs times 100.",1)
-	cdCoverNumber = prompt("Enter the muber is CD Covers. Double if using a 2 sided cover.",(cdNumber * 100))
-	cdJewelCase = prompt("The total muber of CD Jewel Cases are:",(cdNumber * 100))
+	cdCoverNumber = prompt("Enter the number of duel sided covers.",(cdNumber * 100))
+	cdJewelCase = prompt("The total number of CD Jewel Cases are:",(cdNumber * 100))
+	cdCoverPrice = prompt("Enter the price per 100 CD covers per side.", 35)
 	cdrPackPrice = prompt("Enter the price of a 100 pack CD-R.",15)
 	cdJewleCasePrice = prompt("Enter the price of a 100 jewele case pack.", 15)
 	cdDup = prompt("Enter the price of CD duplication per 100 CDs.",5);
@@ -28,6 +29,10 @@ var totalCdrPrice = (cdNumber * cdrPackPrice);
 console.log ("The total price of the CD-Rs equal $" + totalCdrPrice + ".");
 
 // Total Price of CD Covers
+var totalCoverPrice = (cdNumber * cdCoverPrice);
+console.log ("The total price of the CD Covers equal $" + totalCoverPrice + ".");
+
+// Total Price of CD Jewele Cases
 var totalJewelePrice = (cdNumber * cdJewleCasePrice);
 console.log ("The total price of the Jewele Cases equal $" + totalJewelePrice + ".");
 	
