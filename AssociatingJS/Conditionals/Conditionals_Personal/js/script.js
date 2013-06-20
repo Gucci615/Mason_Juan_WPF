@@ -43,6 +43,10 @@ if (totalCal <= 12000){console.log("Keep up the good work. You are on the right 
 	}
 else{console.log("Stay focused! You need to cut your calorie intake.");
 	}
+	 
+var totalWeek = (totalTime == 200 && totalCal <= 12000) ? "Grate job, you are on your way." : "We have some work to do.";
+
+
 
 
 
