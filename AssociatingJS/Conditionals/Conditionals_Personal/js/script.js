@@ -16,6 +16,10 @@ var monTime = prompt("Enter the amount of time spent exercising Monday in minute
 // Display total exercise time for the week
 console.log(totalTime);
 
+//Prompt intake calories per day
+var monCal = prompt("Enter the amount of calories ingested on Monday.", 2000)
+
+
 	
 
 
