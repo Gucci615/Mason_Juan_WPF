@@ -35,6 +35,8 @@ if (totalTime > 200){console.log("You should be careful not to over do it!")
 	}
 	else if (totalTime == 200){console.log("You are on the right track. Keep up the good work.")
 		}
+		else {console.log("We have work to do. You need to increase your exercise time.")
+		}
 
 
 
