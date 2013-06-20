@@ -35,6 +35,10 @@ console.log ("The total price of the CD Covers equal $" + totalCoverPrice + ".")
 // Total Price of CD Jewele Cases
 var totalJewelePrice = (cdNumber * cdJewleCasePrice);
 console.log ("The total price of the Jewele Cases equal $" + totalJewelePrice + ".");
+
+// Total Price of CD duplication
+var totalDupPrice = (cdNumber * cdDup);
+console.log ("The total price of duplication equal $" + totalDupPrice + ".");
 	
 
 
