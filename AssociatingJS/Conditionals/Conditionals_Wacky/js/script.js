@@ -24,11 +24,11 @@ var gameTypeArray = new Array ("Shooter" , "Fighting" , "Sports" , "Strategy");
 	gameTypeArray[2] = ("Madden, NBA 2K, FIFA Soccer, NHL, and MLB");
 	gameTypeArray[3] = ("XCOM, R.U.S.E., Command & Conquer, and Greed Corp");
 	
-if (systemName != "Cell Phone"){ console.log("You are a " + systemName + " gamer, who may like such game titles as:" + gameTypeArray[gameType] + ".")
+if (systemName != "Cell Phone"){ console.log("Based on your selection, you are a " + systemName + " gamer, who may like such game titles as:" + gameTypeArray[gameType] + ".")
 }
 else{ console.log("You are not a gamer.")
 };
-console.log("Based on your selection, you may like such game titles as:" + gameTypeArray[gameType] + ".");
+
 	
 
 
