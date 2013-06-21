@@ -1,8 +1,8 @@
 // Juan E. Mason 06/20/13
 // Conditionals Wacky
-// Time Playing Video Games
+//What type of gamer are you?
 
-alert("Are you a gamer?");
+alert("What type of gamer are you?");
 
 // Game system arra
 var gameArray = new Array ("PS 3",  "Xbox 360", "Computer", "Cell Phone, Other");
