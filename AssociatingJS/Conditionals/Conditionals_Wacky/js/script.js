@@ -28,7 +28,7 @@ if (systemName != "Cell Phone"){ console.log("Based on your selection, you are a
 }
 else{ console.log("You are not a gamer.")
 };
-
+alert("Happy Gaming!!!");
 	
 
 
