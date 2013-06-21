@@ -6,6 +6,7 @@ alert("What type of gamer are you?");
 
 // Game system arra
 var gameArray = new Array ("PS 3",  "Xbox 360", "Computer", "Cell Phone, Other");
+	gameArray[0] = "PlayStation 3";
 	
 //What game system used	
 var systemName = prompt("What system to you play games on the most? \n PS 3 \n Xbox 360 \n Computer\n Cell Phone \n Other...", (gameArray[3]));
@@ -18,6 +19,11 @@ var gameTypeArray = new Array ("Shooter" , "Fighting" , "Sports" , "Strategy");
 	gameTypeArray[1] = ("Injustice, WWE, UFC, and Tekken");
 	gameTypeArray[2] = ("Madden, NBA 2K, FIFA Soccer, NHL, and MLB");
 	gameTypeArray[3] = ("XCOM, R.U.S.E., Command & Conquer, and Greed Corp");
+	
+if (gameArray[3]){ "You are not a gamer."
+}
+	else{ "You are a" + gameAray + "who may like such game titles as:" + gameTypeArray[gameType] + "."
+	};
 console.log("Based on your selection, you may like such game titles as:" + gameTypeArray[gameType] + ".");
 	
 
