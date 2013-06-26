@@ -7,5 +7,6 @@
 function gasForTrip (miles , milesPerGl)
 {
 	miles = prompt("Enter the number of miles needed to drive for this trip.", 200);
+	milesPerGl = prompt("Enter the number of MPGs you vehicle can travel.", 18);
 }
 
