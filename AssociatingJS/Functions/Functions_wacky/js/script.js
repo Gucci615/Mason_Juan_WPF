@@ -18,7 +18,9 @@ var wweTag = 297 + 315;
 var wwfHardCore = 150;
 var wwfSkul = 189 + 115;
 
-console.log(wweWorld);
+var myBeltsPrice = (wcwWorld + wweWorld + wwfHeavy + wwfIC + wwfLight + ecdHeavy + wweSpUS + wweUS + wweTag + wwfHardCore + wwfSkul);
+
+console.log(myBeltsPrice);
 }
 
 belts();
