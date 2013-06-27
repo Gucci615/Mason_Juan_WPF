@@ -16,11 +16,11 @@ function gasForTrip ()
 	console.log(miles);
 	console.log(milesPerGl);
 	totalGas = (miles / milesPerGl);
-	console.log(totalGas);
+	console.log("This trip will require " + totalGas + " gallons of gas.");
 	milesPerTank = (milesPerGl * galPerTank);
 	console.log("You can travel " + milesPerTank + " miles per full tank of gas.");
 	priceFullTank = (gasPrice * galPerTank);
-	console.log("It will cost you $" + priceFullTank + " to completely fill your gas tank.");
+	console.log("It will cost you $" + priceFullTank + " to completely fill your gas tank from empty.");
 	tanksPerTrip = (miles / milesPerTank);
 	console.log(tanksPerTrip);
 
