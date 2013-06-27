@@ -3,7 +3,7 @@
 
 //How much Cat-5 Network Cable needed to Run 8 CCTV Cameras.
 
-var cad5 = function()
+var cad5 = function(cam1, cam2, cam3, cam4, cam5, cam6, cam7, cam8, dvr)
 {
 
 }
