@@ -21,5 +21,6 @@ console.log("You stated you have " + cableOnHand + " feet of cable on hand.")
 if (cableOnHand >= allCad5){ console.log("You have enough Cad-5 cable for this installation job.")
 }
 else {
-	console.log("Sorry, you dont have enough cable for this installation.")
+	console.log("That is " + (allCad5 - cableOnHand) + " feet short.");
+	console.log("Sorry, you dont have enough cable for this installation.");
 }
