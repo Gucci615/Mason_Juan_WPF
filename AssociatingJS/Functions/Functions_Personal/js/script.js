@@ -15,6 +15,6 @@ function gasForTrip (totalGas)
 	totalGas = (miles / milesPerGl);
 	console.log(totalGas);
 }
-
-;	
+//Run Function
+gasForTrip();;	
 
