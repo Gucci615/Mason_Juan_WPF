@@ -13,5 +13,8 @@ function gasForTrip (totalGas)
 	console.log(miles);
 	console.log(milesPerGl);
 	totalGas = (miles / milesPerGl);
-	
+	console.log(totalGas);
+}
+
+;	
 
