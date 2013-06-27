@@ -8,3 +8,4 @@ var cad5 = function()
 
 }
 
+cad5();
