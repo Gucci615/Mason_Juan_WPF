@@ -16,6 +16,7 @@ var allCad5 = cad5(20,35,54,72,30,28,44,80,5);
 console.log("It will requier " + allCad5 + " feet of Cad-5 network cable to run the 8 CCTV Cameras and DVR.");
 
 var cableOnHand = prompt("How many feet of Cad-5 do you have on hand?", 200);
+console.log("You stated you have " + cableOnHand + " feet of cable on hand.")
 
 if (cableOnHand >= allCad5){ console.log("You have enough Cad-5 cable for this installation job.")
 }
