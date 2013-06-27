@@ -9,6 +9,15 @@ function belts(wcwWorld, wweWorld, wwfHeavy, wwfIC, wwfLight, ecdHeavy, wweSpUS,
 var wcwWorld = 299;
 var wweWorld = 349 *2;
 var wwfHeavy = 150;
+var wwfIC = 179;
+var wwfLight = 150;
+var ecdHeavy = 299;
+var wweSpUS = 279;
+var wweUS = 189;
+var wweTag = 297 + 315;
+var wwfHardCore = 150;
+var wwfSkul = 189 + 115;
+
 console.log(wweWorld);
 }
 
