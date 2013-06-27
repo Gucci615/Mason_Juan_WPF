@@ -12,3 +12,5 @@ var cad5 = function(cam1, cam2, cam3, cam4, cam5, cam6, cam7, cam8, dvr)
 }
 
 var allCad5 = cad5(20,35,54,72,30,28,44,80,5);
+
+console.log(allCad5);
