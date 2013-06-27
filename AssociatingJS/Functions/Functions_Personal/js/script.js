@@ -20,7 +20,7 @@ function gasForTrip ()
 	milesPerTank = (milesPerGl * galPerTank);
 	priceFullTank = (gasPrice * galPerTank);
 	tanksPerTrip = (miles / milesPerTank);
-	
+	console,log(tanksPerTrip);
 
 
 }
