@@ -11,6 +11,7 @@ function gasForTrip ()
 	miles = prompt("Enter the number of miles needed to drive for this trip.", 200);
 	milesPerGl = prompt("Enter the number of MPGs you vehicle can travel.", 18);
 	gasPrice = prompt("Enter the average gas price per gallon.", 3.45);
+	galPerTank = prompt("Enter the maximum gallons of gas for your gas tank.", 20);
 	console.log(miles);
 	console.log(milesPerGl);
 	totalGas = (miles / milesPerGl);
