@@ -8,6 +8,7 @@ function belts(wcwWorld, wweWorld, wwfHeavy, wwfIC, wwfLight, ecdHeavy, wweSpUS,
 {
 var wcwWorld = 299;
 var wweWorld = 349 *2;
+var wwfHeavy = 150;
 console.log(wweWorld);
 }
 
