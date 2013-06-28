@@ -47,9 +47,11 @@ function liveEvents(wm23, fanAxxess, premierCondemed, raw, smackDown, houseShow,
 
 	var liveEventPrice = (wm23 + fanAxxess + premierCondemed + raw + smackDown + houseShow + survivorSeries + royalRumbel + overTheLimit)
 	return liveEventPrice;
-
-
-	console.log(liveEventPrice);
 }
 
 liveEvents();
+console.log(liveEventPrice);
+
+
+var beltsAndEvents = (myBeltsPrice + liveEventPrice);
+console.log(beltsAndEvents);
