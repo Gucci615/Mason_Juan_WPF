@@ -32,12 +32,19 @@ console.log(myBeltsPrice);
 
 
 
-function liveEvents(wwm23)
+function liveEvents(wm23, fanAxxess, premierCondemed, raw, smackDown, houseShow, survivorSeries, royalRumbel, overTheLimit)
 {
-	var wwm23 = 125 * 2;
-	
+	var wm23 = 125 * 2;
+	var fanAxxess = 50 *2;
+	var	premierCondemed = 25 *2;
+	var raw = 42 * 2 + 57 * 3 + 75 * 2 + 50 * 3;
+	var smackDown = 25 * 4 + 49 * 2 + 25 * 3;
+	var houseShow = 15 * 4 + 20 * 6 + 25 * 2
+	var survivorSeries = 75 * 2;
+	var royalRumbel = 95 * 2;
+	var overTheLimit = 75 * 2;
 
-	console.log(wwm23);
+	console.log(liveEvents);
 }
 
 liveEvents();
