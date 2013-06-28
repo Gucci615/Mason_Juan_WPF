@@ -31,6 +31,7 @@ console.log(myBeltsPrice);
 
 
 
+var liveEventPrice = liveEvents();
 
 function liveEvents(wm23, fanAxxess, premierCondemed, raw, smackDown, houseShow, survivorSeries, royalRumbel, overTheLimit)
 {
