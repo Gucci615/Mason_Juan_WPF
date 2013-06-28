@@ -29,3 +29,15 @@ return myBeltsPrice;
 belts();
 console.log(myBeltsPrice);
 
+
+
+
+function liveEvents(wwm23)
+{
+	var wwm23 = 125 * 2;
+	
+
+	console.log(wwm23);
+}
+
+liveEvents();
