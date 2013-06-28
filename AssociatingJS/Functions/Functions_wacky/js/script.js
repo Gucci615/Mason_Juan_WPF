@@ -3,6 +3,7 @@
 // How much have I invested in y WWE / WWF /WCW / ECW Wrestling Belts
 
 console.log("Who's the bigger wrestling fan? You or ME!");
+var myBeltsPrice = belts();
 
 function belts(wcwWorld, wweWorld, wwfHeavy, wwfIC, wwfLight, ecdHeavy, wweSpUS, wweUS, wweTag, wwfHardCore, wwfSkul )
 {
