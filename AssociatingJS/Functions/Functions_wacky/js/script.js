@@ -21,7 +21,8 @@ var wwfSkul = 189 + 115;
 var myBeltsPrice = (wcwWorld + wweWorld + wwfHeavy + wwfIC + wwfLight + ecdHeavy + wweSpUS + wweUS + wweTag + wwfHardCore + wwfSkul);
 return myBeltsPrice;
 
-console.log(myBeltsPrice);
+
 }
 
 belts();
+console.log(myBeltsPrice);
