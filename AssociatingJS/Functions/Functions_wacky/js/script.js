@@ -56,7 +56,7 @@ console.log(liveEventPrice);
 var beltsAndEvents = (myBeltsPrice + liveEventPrice);
 console.log("I have invested $" + beltsAndEvents + ".00 on wrestling belts and live events.");
 
-console.log("I know I am a big fan. Wht abou YOU?");
+console.log("I know I am a big fan. Wht about YOU?");
 
 
 
