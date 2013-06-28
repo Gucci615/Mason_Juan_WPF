@@ -46,6 +46,7 @@ function liveEvents(wm23, fanAxxess, premierCondemed, raw, smackDown, houseShow,
 	var overTheLimit = 75 * 2;
 
 	var liveEventPrice = (wm23 + fanAxxess + premierCondemed + raw + smackDown + houseShow + survivorSeries + royalRumbel + overTheLimit)
+	return liveEventPrice;
 
 
 	console.log(liveEventPrice);
